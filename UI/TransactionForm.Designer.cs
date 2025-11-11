@@ -46,7 +46,7 @@
             this.lblType.AutoSize = true;
             this.lblType.Location = new System.Drawing.Point(137, 56);
             this.lblType.Name = "lblType";
-            this.lblType.Size = new System.Drawing.Size(141, 20);
+            this.lblType.Size = new System.Drawing.Size(113, 16);
             this.lblType.TabIndex = 0;
             this.lblType.Text = "Transaction Type";
             // 
@@ -67,7 +67,7 @@
             this.lblAmount.AutoSize = true;
             this.lblAmount.Location = new System.Drawing.Point(139, 101);
             this.lblAmount.Name = "lblAmount";
-            this.lblAmount.Size = new System.Drawing.Size(65, 20);
+            this.lblAmount.Size = new System.Drawing.Size(52, 16);
             this.lblAmount.TabIndex = 2;
             this.lblAmount.Text = "Amount";
             // 
@@ -99,7 +99,7 @@
             this.lblDate.AutoSize = true;
             this.lblDate.Location = new System.Drawing.Point(139, 212);
             this.lblDate.Name = "lblDate";
-            this.lblDate.Size = new System.Drawing.Size(45, 20);
+            this.lblDate.Size = new System.Drawing.Size(36, 16);
             this.lblDate.TabIndex = 6;
             this.lblDate.Text = "Date";
             // 
@@ -156,6 +156,7 @@
             this.Controls.Add(this.lblType);
             this.Name = "TransactionForm";
             this.Text = "TransactionForm";
+            this.Load += new System.EventHandler(this.TransactionForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
