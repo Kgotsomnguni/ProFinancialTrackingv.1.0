@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace ProFinancialTrackingv._1._0.Models
 {
-    internal class Transaction
+    public class Transaction
     {
+        public string Type { get; set;}
+        public decimal Amount {  get; set;}
+        public DateTime Date { get; set;}
+        public string Description {  get; set;}
+
     }
 }
